@@ -1,0 +1,16 @@
+.containerPlante{
+    padding: 10px 0px 10px 0px;
+}
+.divHeaderPlante{
+    float:right;
+    margin-right: 20px;
+}
+.titleHeader{
+   font-size:30px;
+}
+.ligne{
+    margin-top: 100px;
+    height: 2px;
+    width:100%;
+    background-color: black;
+}

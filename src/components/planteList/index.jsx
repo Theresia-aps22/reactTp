@@ -5,16 +5,22 @@ export default function PlanteList(props){
     const nom = props.nom;
     const lumiere = props.lumiere;
     const eau = props.eau;
-    let nbLumiere = "";
-    let nbEau = "";
+    
+    
     //pour afficher la lumière selon le nombre de lumiere
-    for(let i=1; i<=lumiere; i++){
-        nbLumiere = nbLumiere + "🌞";
-    }
+    /* for(let i=1; i<=lumiere; i++){
+         nbLumiere = nbLumiere + "🌞";
+     }*/
+
     //pour afficher la goutte d'eau selon le nombre de goutte
-    for(let i=1; i<=eau; i++){
+    /* for(let i=1; i<=eau; i++){
         nbEau = nbEau + "💧";
-    }
+     }*/
+
+    //ou
+
+    let nbLumiere = Array.from({length: lumiere}, () => "🌞").join('');
+    let nbEau = Array.from({length: eau}, () => "💧").join('');
 
     return(
         <div className="containerPlanteList">

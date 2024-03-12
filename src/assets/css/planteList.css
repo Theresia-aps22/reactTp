@@ -1,0 +1,25 @@
+.containerPlanteList{
+    background-color: rgba(128, 128, 128, 0.212);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    /* permet d'ajuster le div selon son contenu */
+    width: auto;
+    height: auto;
+    display: inline-block; /* ou display: inline; */
+}
+.infoPlante{
+    margin-top: 10px;
+    
+}
+
+.imagePlante{
+    border-radius: 10px;
+}
+.planteListItem{
+    list-style: none; 
+}
+.planteItemTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
