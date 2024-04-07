@@ -7,7 +7,9 @@ const planteList = [
         categorie:"classique",
         lumiere:2,
         eau:2,
-        photo:image
+        photo:image,
+        reaction: true
+
     },
     {
         id:"aac",
@@ -15,15 +17,17 @@ const planteList = [
         categorie:"classique",
         lumiere:1,
         eau:2,
-        photo:image
+        photo:image,
+        reaction: false
     },
     {
         id:"aad",
-        nom:"Rose",
+        nom:"Tournesol",
         categorie:"plante graisse",
-        lumiere:3,
-        eau:1,
-        photo:image
+        lumiere:4,
+        eau:3,
+        photo:image,
+        reaction: true
     },
     {
         id:"aae",
@@ -31,7 +35,17 @@ const planteList = [
         categorie:"exterieur",
         lumiere:2,
         eau:2,
-        photo:image
+        photo:image,
+        reaction: false
+    },
+    {
+        id:"aaf",
+        nom:"Rose",
+        categorie:"plante graisse",
+        lumiere:3,
+        eau:1,
+        photo:image,
+        reaction: true
     },
 
 ]
